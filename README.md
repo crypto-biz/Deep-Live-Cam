@@ -79,7 +79,7 @@ Place these files in the "**models**" folder.
 We highly recommend using a `venv` to avoid issues.
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt. Use pip install --use-pep517 -r requirements.txt if encounter issue with basicsr build on MacOS
 ```
 
 **For macOS:** Install or upgrade the `python-tk` package:
